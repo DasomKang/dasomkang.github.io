@@ -1,7 +1,7 @@
 # Jekyll configuration
 markdown: kramdown
 highlighter: rouge
-paginate: 100 # it will paginate after this number
+paginate: 10 # it will paginate after this number
 language: 'en-uk'
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
@@ -70,10 +70,10 @@ feed:
 safe: False
 lsi: False
 username: DasomKang
-repo: jasper2
+repo: dasomkang.github.io
 branch: master
-relative_source: ../jasper2/
-destination: ../jasper2-pages/
+relative_source: ""
+destination: ""
 production_url:  https://dasomkang.github.io
 source_url:  https://github.com/DasomKang/dasomkang.github.io
 
