@@ -70,9 +70,9 @@ feed:
 safe: False
 lsi: False
 username: DasomKang
-repo: https://github.com/DasomKang/dasomkang.github.io
+repo: dasomkang.github.io
 branch: master
-relative_source: https://github.com/DasomKang/dasomkang.github.io
+relative_source: ../
 destination: ../
 production_url:  https://dasomkang.github.io/
 source_url:  https://github.com/DasomKang/dasomkang.github.io/
