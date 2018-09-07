@@ -11,8 +11,10 @@ author: dasom
 categories: Sampling
 ---
 
-[TOC]
+
+
 ##What is rejection sampling? ##
+
 Rejection sampling (also known as acceptance-rejection sampling) is a basic algorithm used to generate observations from a distribution $p(x)$. It is useful when we want to sample from a distribution $p(x)$, but the $p(x)$ is too complicated to sample directly.
 To implement this algorithm, it is essential to have information regarding the pdf(probability density function) of the target distribution $p(x)$.
 
