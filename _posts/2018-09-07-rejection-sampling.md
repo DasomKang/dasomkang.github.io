@@ -14,7 +14,9 @@ use_math: true
 
   
 
-  
+   
+
+
 
 ## What is rejection sampling?
 
