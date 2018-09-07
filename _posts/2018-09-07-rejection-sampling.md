@@ -9,14 +9,11 @@ subclass: 'post tag-test'
 logo: 'assets/images/ghost.png'
 author: dasom
 categories: Sampling
-use_math: true
 ---
 
   
 
-   
-
-
+     
 
 ## What is rejection sampling?
 
@@ -67,8 +64,12 @@ The rejection sampling proceeds as follow :
 ## The limitations of rejection sampling
 
 The main problem with rejection sampling is setting an appropriate $M$.  
-It is not always possible to bound  $\frac{p(x)}{q(x)}$ with a reasonable constant $M$ over the whole domain $\mathcal{X}$. And besides, if an $M$ is too large, the acceptance probability[^1] will be too small and many samples will likely be rejected.  
+It is not always possible to bound  $\frac{p(x)}{q(x)}$ with a reasonable constant $M$ over the whole domain $\mathcal{X}$. And besides, if an $M$ is too large, the acceptance probability[^1] will be too small and many samples will likely be rejected.    
+
 $$ P(Acceptance) = p( u< \frac{p(x)}{Mq(x)} ) = \frac{1}{M}.$$  
+
+  
+
 It is especially impractical when $p(x)$ is a distribution over a high-dimensional set, something which generally requires a large $M$.
 
 

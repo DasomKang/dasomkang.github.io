@@ -2,6 +2,10 @@
 #markdown: redcarpet
 #highlighter: pygments
 markdown: kramdown
+math_engine: mathjax
+math_engine_opts:
+  preview: true
+  privew_as_code: true
 highlighter: rouge
 paginate: 5
 language: 'en-uk'
