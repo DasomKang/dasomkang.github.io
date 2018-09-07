@@ -33,14 +33,14 @@ The main idea of rejection sampling is that another simple $q(x)$ is considered,
 
 
 
-
-
 Instead of a target distribution, generate samples from proposal distribution $q(x)$, and apply a rejection/acception criterion.
 The criterion and algorithm are both described below.  
 
+  
 
+  
 
-###Process
+### Process
 
 Overall, we need two distributions :   
 1. Target distribution $p(x)$ : A distribution that we want to sample from.    
@@ -51,9 +51,6 @@ And one restriction is
 1. $p(x) \leq Mq(x), \quad M < \infty $ , M is positive constant  
 
 
-
-
-
 The rejection sampling proceeds as follow :     
 1. Set $i = 1$  
 2. Until $i = n, $    
@@ -61,11 +58,12 @@ The rejection sampling proceeds as follow :
       (2) If $u <  \frac{p(x)}{Mq(x)}, \quad $ then accept $x_i$ and $i = i + 1.$   
       Otherwise, reject  $x_i$    
 
+  
 
+  
 
+## The limitations of rejection sampling
 
-
-##The limitations of rejection sampling
 The main problem with rejection sampling is setting an appropriate $M$.  
 It is not always possible to bound  $\frac{p(x)}{q(x)}$ with a reasonable constant $M$ over the whole domain $\mathcal{X}$. And besides, if an $M$ is too large, the acceptance probability[^1] will be too small and many samples will likely be rejected.  
 $$ P(Acceptance) = p( u< \frac{p(x)}{Mq(x)} ) = \frac{1}{M}.$$  
