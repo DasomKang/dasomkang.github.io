@@ -25,8 +25,14 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css">
     <style>.hljs { background: none; }</style>
 
+	{% if page.use_math %}
+	  {% include mathjax_support %} 
+	{% endif %}
+
     <!-- Ghost outputs important style and meta data with this tag -->
     {% include head.html %}
+
+
 
 </head>
 <body class="{% if paginator.page > 1 %}paged archive-template{% elsif page.class %}{{ page.class }}{% else %}home-template{% endif %} nav-closed">
