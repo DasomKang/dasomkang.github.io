@@ -4,21 +4,25 @@ cover: 'assets/images/cover6.jpg'
 navigation: True
 title: Rejection Sampling
 date: 2017-09-07 13:10:00
-tags: Sampling
+tags: 
+   - Sampling
 subclass: 'post tag-test'
 logo: 'assets/images/ghost.png'
 author: dasom
-categories: Sampling
+categories: [Statistics, Sampling]
+comments: true
 ---
 
-  
+​    
 
-     
+  * Table of contents
+{:toc}
+  
 
 ## What is rejection sampling?
 
-Rejection sampling (also known as acceptance-rejection sampling) is a basic algorithm used to generate observations from a distribution $p(x)$. It is useful when we want to sample from a distribution $p(x)$, but the $p(x)$ is too complicated to sample directly.
-To implement this algorithm, it is essential to have information regarding the pdf(probability density function) of the target distribution $p(x)$.
+ Rejection sampling (also known as acceptance-rejection sampling) is a basic algorithm used to generate observations from a distribution $p(x)$. It is useful when we want to sample from a distribution $p(x)$, but the $p(x)$ is too complicated to sample directly.
+To implement this algorithm, it is essential to have information regarding the pdf(probability density function) of the target distribution $p(x)​$.
 
   
 
@@ -66,7 +70,7 @@ The rejection sampling proceeds as follow :
 The main problem with rejection sampling is setting an appropriate $M$.  
 It is not always possible to bound  $\frac{p(x)}{q(x)}$ with a reasonable constant $M$ over the whole domain $\mathcal{X}$. And besides, if an $M$ is too large, the acceptance probability[^1] will be too small and many samples will likely be rejected.    
 
-$$ P(Acceptance) = p( u< \frac{p(x)}{Mq(x)} ) = \frac{1}{M}.$$  
+$$ P(Acceptance) = p( u< \frac{p(x)}{Mq(x)} ) = \frac{1}{M}.​$$  
 
   
 
