@@ -9,7 +9,7 @@ tags:
 subclass: 'post tag-test'
 logo: 'assets/images/ghost.png'
 author: dasom
-categories: [Statistics, Sampling]
+categories: Statistics
 comments: true
 ---
 
