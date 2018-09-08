@@ -12,14 +12,13 @@ logo: 'assets/images/ghost.png'
 author: dasom
 categories: Statistics
 comments: true
-
 ---
 
-    
+
 
 [TOC]
 
-
+  
 
 ## What is Importance sampling?
 
@@ -32,6 +31,10 @@ However, if it is too hard to directly take samples from $p(x)$, we use arbitrar
 
   
 
+  
+
+  
+
 ### Estimation of $E[f(x)]$
 
 $$E[f(x)] = 	\int f(x)p(x)dx, \quad x \sim p(x) $$
@@ -40,6 +43,8 @@ $$\hat E [f(x)] = \frac{\sum_{i=1}^nf(x_i)}{n}, \quad x_i \sim_{iid} p(x)$$
 $$ \hat E [f(x)]  \xrightarrow[]{a.s} E[f(x)] \quad \text{ as } n \rightarrow \infty$$
 
    
+
+  
 
 ### Importance sampling
 
@@ -62,7 +67,11 @@ we regard this estimation as weighted mean.
 
   
 
-## Efficiency
+
+
+## Efficiency  
+
+
 
 We would like to choose optimal proposal distribution $q(x)$, 
 $$ min_{q(x)} var_{q(x)}(f(x)w(x))$$
