@@ -52,18 +52,30 @@ $$ \hat E [f(x)]  \xrightarrow[]{a.s} E[f(x)] \quad \text{ as } n \rightarrow \i
 
 Importance sampling deploys $q(x)$ to generate samples and estimate $E[f(x)]$.
 
+
+
+
+
+$$
+
 \begin{align}
 E[f(x)] & = \int f(x)p(x)dx  \\\\
 & = \int f(x) \frac{p(x)}{q(x)}q(x) dx\\\\ 
 & = E \left [ f(x) \frac{p(x)}{q(x)} \right ], \quad x \sim q(x)\\\\
 \end{align}
 
+$$
+
 Consequently, we calculate $\hat{E} \left [ f(x) \frac{p(x)}{q(x)} \right ]$ rather than $\hat{E} [ f(x)].$  
+
+$$
 
 \begin{align}
 \hat{E} \left [ f(x) \frac{p(x)}{q(x)} \right ]  & =  \frac{\sum_{i=1}^nf(x_i) \frac{p(x_i)}{q(x_i)} }{n} \\\\
 & = \frac{\sum_{i=1}^nf(x_i)w(x_i)}{n}, \quad x_i \sim q(x_i), \text{where} \quad w(x) = \frac{p(x)}{q(x)}\\\\
 \end{align}
+
+$$
 
 we regard this estimation as weighted mean.
 
