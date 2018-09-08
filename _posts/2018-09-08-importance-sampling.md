@@ -39,7 +39,9 @@ However, if it is too hard to directly take samples from $p(x)$, we use arbitrar
 
 $$E[f(x)] = 	\int f(x)p(x)dx, \quad x \sim p(x) $$
 $$\hat E [f(x)] = \frac{\sum_{i=1}^nf(x_i)}{n}, \quad x_i \sim_{iid} p(x)$$
-*By SLLN(The strong law of large numbers),  *
+
+**By SLLN(The strong law of large numbers),**  
+
 $$ \hat E [f(x)]  \xrightarrow[]{a.s} E[f(x)] \quad \text{ as } n \rightarrow \infty$$
 
    
