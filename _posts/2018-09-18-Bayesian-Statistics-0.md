@@ -1,6 +1,6 @@
 ---
 layout: post
-cover: 'assets/images/cover8.jpg'
+cover: 'assets/images/cover9.jpg'
 navigation: True
 title: Bayesian Statistics 0
 date: 2017-09-08 13:10:00
