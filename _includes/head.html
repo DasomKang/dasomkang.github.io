@@ -1,31 +1,45 @@
-    <link rel="canonical" href="{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.url }}" />
-    <meta name="referrer" content="origin" />
-    <link rel="next" href="{{ site.baseurl }}page2/" />
+<head>
+	<meta charset="utf-8">
+	<title>{% if page.title %}{{ page.title }} |{% endif %} {{ site.theme_settings.title }}</title>
+	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.theme_settings.description }}{% endif %}">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta property="og:site_name" content="{{ site.name }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}" />
-    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-    <meta property="og:url" content="{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.url }}" />
-    <meta property="og:image" content="{{ site.baseurl }}{% if page.cover %}{{ page.cover }}{% else %}assets/images/cover1.jpg{% endif %}" />
+	<!-- CSS -->
+	<link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}" />
-    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-    <meta name="twitter:url" content="{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.url }}" />
-    <meta name="twitter:image:src" content="{{ site.baseurl }}{% if page.cover %}{{ page.cover }}{% else %}assets/images/cover1.jpg{% endif %}" />
+	<!--Favicon-->
+	<link rel="shortcut icon" href="{{ site.baseurl }}/{{ site.theme_settings.favicon }}" type="image/x-icon">
 
-    <script type="application/ld+json">
-{
-    "@context": "http://schema.org",
-    "@type": "Website",
-    "publisher": "{{ site.name }}",
-    "name": "{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}",
-    "url": "{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.url }}",
-    "image": "{{ site.baseurl }}{% if page.cover %}{{ page.cover }}{% else %}assets/images/cover1.jpg{% endif %}",
-    "description": "{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"
-}
-    </script>
+	<!-- Canonical -->
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
 
-    <meta name="generator" content="Jekyll 3.0.0" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}feed.xml" />
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="{{ site.theme_settings.title }}" href="{{ "/feed.xml" | relative_url }}" />
+
+	<!-- Font Awesome -->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	{% if site.theme_settings.google_fonts %}
+	<link href="//fonts.googleapis.com/css?family={{ site.theme_settings.google_fonts }}" rel="stylesheet" type="text/css">
+	{% endif %}
+
+	<!-- KaTeX -->
+	{% if site.theme_settings.katex and page.id %}
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-alpha/dist/katex.min.css" integrity="sha384-BTL0nVi8DnMrNdMQZG1Ww6yasK9ZGnUxL1ZWukXQ7fygA1py52yPp9W4wrR00VML" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-alpha/dist/katex.min.js" integrity="sha384-y6SGsNt7yZECc4Pf86XmQhC4hG2wxL6Upkt9N1efhFxfh6wlxBH0mJiTE8XYclC1" crossorigin="anonymous"></script>
+	{% endif %}
+
+	<!-- Google Analytics -->
+	{% if site.theme_settings.google_analytics %}
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', '{{ site.theme_settings.google_analytics }}', 'auto');
+	ga('send', 'pageview');
+	</script>
+	{% endif %}
+</head>
