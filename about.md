@@ -9,7 +9,7 @@ feature-img: "assets/img/cover4.jpg"
 
 ### About
 
-Dasom Kang
+About me.
 
 
 ### Blog History
