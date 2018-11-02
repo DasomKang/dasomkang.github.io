@@ -3,7 +3,7 @@ layout: post
 cover: 'assets/images/cover6.jpg'
 navigation: True
 title: Rejection Sampling
-date: 2017-09-07 13:10:00
+date: 2018-09-07 13:10:00
 tags: 
    - Sampling
 subclass: 'post tag-test'
@@ -13,7 +13,7 @@ categories: Statistics
 comments: true
 ---
 
-​    
+    
 
   * Table of contents
 {:toc}

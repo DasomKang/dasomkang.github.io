@@ -3,7 +3,7 @@ layout: post
 cover: 'assets/images/cover9.jpg'
 navigation: True
 title: Bayesian Statistics 0
-date: 2017-09-08 13:10:00
+date: 2018-09-08 13:10:00
 tags: 
    - Bayesian
 subclass: 'post tag-test'

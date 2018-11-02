@@ -3,7 +3,7 @@ layout: post
 cover: 'assets/images/cover8.jpg'
 navigation: True
 title: Importance Sampling
-date: 2017-09-08 13:10:00
+date: 2018-09-08 13:10:00
 tags: 
    - Statistics
    - sampling
@@ -76,7 +76,7 @@ $$
 $$
 
 
-​				
+				
 					
 
 we regard this estimation as weighted mean.
