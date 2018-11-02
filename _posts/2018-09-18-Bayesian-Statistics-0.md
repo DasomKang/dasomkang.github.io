@@ -1,14 +1,9 @@
 ---
 layout: post
-cover: 'assets/images/cover9.jpg'
 navigation: True
 title: Bayesian Statistics 0
-date: 2018-09-08 13:10:00
-tags: 
-   - Bayesian
-subclass: 'post tag-test'
-logo: 'assets/images/ghost.png'
-author: dasom
+date: 2018-09-08
+tags: [bayesian]
 categories: Statistics
 comments: true
 ---

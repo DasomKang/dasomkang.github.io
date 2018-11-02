@@ -1,14 +1,9 @@
 ---
 layout: post
-cover: 'assets/images/cover6.jpg'
 navigation: True
 title: Rejection Sampling
-date: 2018-09-07 13:10:00
-tags: 
-   - Sampling
-subclass: 'post tag-test'
-logo: 'assets/images/ghost.png'
-author: dasom
+date: 2018-09-07
+tags: [sampling]
 categories: Statistics
 comments: true
 ---

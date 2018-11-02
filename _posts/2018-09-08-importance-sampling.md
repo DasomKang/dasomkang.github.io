@@ -1,15 +1,9 @@
 ---
 layout: post
-cover: 'assets/images/cover8.jpg'
 navigation: True
 title: Importance Sampling
-date: 2018-09-08 13:10:00
-tags: 
-   - Statistics
-   - sampling
-subclass: 'post tag-test'
-logo: 'assets/images/ghost.png'
-author: dasom
+date: 2018-09-08
+tags: [statistics, sampling]
 categories: Statistics
 comments: true
 ---
