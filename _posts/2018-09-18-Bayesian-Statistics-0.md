@@ -4,7 +4,7 @@ navigation: True
 title: Bayesian Statistics 0
 date: 2018-09-08
 tags: [bayesian]
-categories: Stats
+categories: stats
 comments: true
 ---
 
