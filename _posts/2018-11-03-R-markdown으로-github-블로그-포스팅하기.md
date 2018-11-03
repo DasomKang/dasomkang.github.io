@@ -117,5 +117,5 @@ output file: 2018-11-03-R-markdown-test.md
 간단히 요약하자면, .Rmd 하나 작성할 때 마다 _Rmd폴더에 저장해놓고서 위 코드를 R에서 실행해주면 된다.
 
 
-##### Reference
+#### Reference
 - http://otzslayer.github.io/r/jekyll-with-R-markdown/
