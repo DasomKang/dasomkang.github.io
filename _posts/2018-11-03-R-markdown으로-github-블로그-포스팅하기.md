@@ -1,7 +1,7 @@
 ---
 layout: post
 navigation: True
-title: R markdown으로 github 블로그 포스팅하기
+title: R markdown으로 github 블로그 포스팅하기면서
 date: 2018-11-03
 tags:
 categories: etc
@@ -11,6 +11,7 @@ comments: true
 일단 맨 아래 추가해놓은 링크를 보고 그대로 따라했기 때문에 사실 새로운 정보는 없다. 그래도 내가 진행했던 순서대로 정리를 다시 해놔야 나중에라도 다시 금방 할 수 있을 것 같아서...
 아, 이 블로그 테마의 경우 카테고리를 추가하는 방법이 다른 테마와 다른 것 같아서 내가 한 방법대로 하지말고 아래 링크를 따라하는 걸 추천한다.
 gitub blog를 미리 세팅해놨다는 가정하에,
+
 
 
 ####1. github 블로그 폴더 내에 폴더 추가
