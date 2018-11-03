@@ -23,7 +23,7 @@ gitub blog를 미리 세팅해놨다는 가정하에,
 #### 2. R studio에서 .Rmd 파일 작성 및 저장
 Rstudio를 켜고 업로드할 글이나 테스트해볼 글을 작성한다. 프론트매터의 경우는 아래와 같이 작성하면 된다.
 
-```
+```{r}
 ---
 layout: post
 title: "markdown-test"
@@ -42,7 +42,7 @@ categories: ETC
 
 아래 스크립트를 작성한다.
 
-```
+```{r}
 # jekyll 블로그 디렉토리 설정
 # userid.github.io의 로컬 위치를 적어주면 되고 나의 경우에는 아래와 같다.
 base <- ".../github_blog/userid.github.io/"
@@ -79,7 +79,7 @@ file.rename(out.file, paste0(posts.path, out.file))
 
 그리고 R에서 하나씩 끝까지 실행한다! 성공할경우
 
-```
+```{r}
 processing file: _Rmd/2018-11-03-R-markdown-test.Rmd
   |.........                                                        |  14%
   ordinary text without R code
