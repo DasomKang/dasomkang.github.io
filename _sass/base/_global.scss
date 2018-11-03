@@ -73,7 +73,15 @@ th {
 table,
 dl,
 blockquote,
-code, 
+code {
+    font-size: 0.8em;
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+    background-color: #fbf7f5;
+}
+
+
+
 kbd,
 pre,
 samp {
