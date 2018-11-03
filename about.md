@@ -15,4 +15,4 @@ About me.
 ### Blog History
 - 2018.11.02
   - 블로그 테마 변경(Jasper -> Type Theme)
-  - 글 옮겨오는 중
+  - 글 옮겨오는 중, 카테고리 추가 중
