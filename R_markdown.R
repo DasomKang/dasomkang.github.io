@@ -1,16 +1,16 @@
 # jekyll 블로그 디렉토리 설정
-base <- "/Users/dasomkang/dasomkang.github.io/"
+base <- "/Users/dasomi/github_blog/dasomkang.github.io/"
 
 # Rmd파일이 저장될 디렉토리 지정
 rmds <- "_Rmd"
 setwd(base)
 
 # 파일 이름 지정
-filename <- "2016-01-18-R-graphics-cookbook-chapter-3.Rmd"
+filename <- "2018-11-03-R-markdown-test.Rmd"
 
 # 폴더 경로들
 figs.path <- "assets/article_images/"
-posts.path <- "_posts/R/"
+posts.path <- "_posts/"
 
 # START!!!
 require(knitr)
