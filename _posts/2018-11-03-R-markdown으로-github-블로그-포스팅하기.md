@@ -13,17 +13,16 @@ comments: true
 gitub blog를 미리 세팅해놨다는 가정하에,
 
 
-
-#### 1. github 블로그 폴더 내에 폴더 추가
+### 1. github 블로그 폴더 내에 폴더 추가
 내 경우에는 아래 두 개만 추가했다.
 - `userid.github.io/_Rmd`: R 마크다운 파일이 저장되는 경로
 - `assets/article_images/title`: R 코드로 만들어진 이미지가 저장되는 경로
 
 
-#### 2. R studio에서 .Rmd 파일 작성 및 저장
+### 2. R studio에서 .Rmd 파일 작성 및 저장
 Rstudio를 켜고 업로드할 글이나 테스트해볼 글을 작성한다. 프론트매터의 경우는 아래와 같이 작성하면 된다.
 
-```{r}
+~~~
 ---
 layout: post
 title: "markdown-test"
@@ -32,17 +31,16 @@ date: '2018-11-03'
 output: html_document
 categories: ETC
 ---
-```
-물론 위에서 title, author, date, 다 마음대로 바꾸면 되고, date의 경우
-아마 2018 11 3 으로 자동으로 값이 저장되어있을 텐데, 형식을 2018-11-03으로 바꿔줘야 한다. 그리고 글을 작성하고 저장하면 된다. 나는 처음에 테스트용으로 그냥 상단만 수정한 뒤 바로 업로드해봤었다.
+~~~
 
-  R 마크다운 파일을 위 userid.github.io/_Rmd` 폴더에 저장한다.
+물론 위에서 title, author, date, 다 마음대로 바꾸면 되고, date의 경우
+아마 2018 11 3 으로 자동으로 값이 저장되어있을 텐데, 형식을 2018-11-03으로 바꿔줘야 한다. 그리고 글을 작성하고 저장하면 된다. 나는 처음에 테스트용으로 그냥 상단만 수정한 뒤 바로 업로드해봤었다. R 마크다운 파일을 위 `userid.github.io/_Rmd` 폴더에 저장한다.
 
 #### 3. 새로운 .R파일 하나 생성
 
 아래 스크립트를 작성한다.
 
-```{r}
+~~~ R
 # jekyll 블로그 디렉토리 설정
 # userid.github.io의 로컬 위치를 적어주면 되고 나의 경우에는 아래와 같다.
 base <- ".../github_blog/userid.github.io/"
@@ -57,7 +55,6 @@ filename <- "2018-11-03-R-markdown-test.Rmd"
 # 폴더 경로들
 figs.path <- "assets/article_images/"
 posts.path <- "_posts/"
-
 
 # START!!!
 require(knitr)
@@ -75,11 +72,11 @@ opts_chunk$set(cache = F, warning = F, message = F, cache.path = "_cache/", tidy
 
 out.file <- basename(knit(file))
 file.rename(out.file, paste0(posts.path, out.file))
-```
+~~~
 
 그리고 R에서 하나씩 끝까지 실행한다! 성공할경우
 
-```{r}
+~~~ R
 processing file: _Rmd/2018-11-03-R-markdown-test.Rmd
   |.........                                                        |  14%
   ordinary text without R code
@@ -110,7 +107,7 @@ output file: 2018-11-03-R-markdown-test.md
 
 > file.rename(out.file, paste0(posts.path, out.file))
 [1] TRUE
-```
+~~~
 
 이런 결과가 뜨고, _posts에 마크다운파일이 생성되고, 이미지도 알아서 지정한 폴더에 저장이 된다.
 
@@ -118,4 +115,4 @@ output file: 2018-11-03-R-markdown-test.md
 
 
 #### Reference
-- http://otzslayer.github.io/r/jekyll-with-R-markdown/
+- [http://otzslayer.github.io/r/jekyll-with-R-markdown/](http://otzslayer.github.io/r/jekyll-with-R-markdown/)
