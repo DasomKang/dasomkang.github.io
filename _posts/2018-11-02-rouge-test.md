@@ -38,7 +38,7 @@ end
 
 
 
-~~~
+~~~ ruby
 def show
   @widget = Widget(params[:id])
   respond_to do |format|
@@ -47,4 +47,3 @@ def show
   end
 end
 ~~~
-
