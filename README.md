@@ -1,56 +1,9 @@
+# Miscellaneous articles
+
+
 # Type Theme
 
 ![Default Type Theme blog](https://user-images.githubusercontent.com/816965/30518919-d5978024-9bcd-11e7-81b3-3dd07e99a1f9.png)
-
-A free and open-source [Jekyll](https://jekyllrb.com) theme. Great for blogs and easy to customize.
-
-[Demo](https://rohanchandra.github.io/type-theme/)
-
-## Usage
-
-1. Fork and clone the [Type Theme repo](https://github.com/rohanchandra/type-theme): `git clone https://github.com/rohanchandra/type-theme`
-2. [Install Jekyll](https://jekyllrb.com/docs/installation/): `gem install jekyll`
-3. Install the theme's dependencies: `bundle install`
-4. Customize the theme (see below)
-5. Run the Jekyll server: `jekyll serve`
-
-## Customizing Type Theme
-
-Open `_config.yml` in a text editor to change most of the blog's settings.
-
-If a variable in this document is marked as "optional", disable the feature by removing all text from the variable. For example, to prevent the avatar from rendering in the header, the avatar line should read:
-
-```yml
-theme:
-  title: Type Theme
-  avatar:
-  gravatar:
-```
-
-Notice the avatar variable is left intentionally blank.
-
-Below is a summary of the configuration options in Type Theme.
-
-### Site configuration
-The most common configurations, included here for guidance, are:
-
-Jekyll website *without* a subpath (such as a GitHub Pages website for a given username):
-
-```yml
-# SITE CONFIGURATION
-baseurl: ""
-url: "https://username.github.io"
-```
-
-Jekyll website *with* subpath (like the Type Theme demo page):
-
-```yml
-# SITE CONFIGURATION
-baseurl: "/sub-directory"
-url: "https://username.github.io/"
-```
-
-Please configure this in `_config.yml` before using the theme.
 
 ### Meta
 
@@ -92,25 +45,12 @@ Add your username on selected websites in the icon section of the `_config.yml` 
 
 Change these variables in `_config.yml`:
 
+[KaTeX](https://khan.github.io/KaTeX/)
 
-| Variable | Example | Description | Optional |
-|------------------|--------------|-------------------------------------------------------------------------------------------------------------------------------------|----------|
-| google_analytics | UA-123456-01 | Google Analytics [tracking ID](https://support.google.com/analytics/answer/1032385?hl=en) | Yes |
-| disqus_shortname | shortname | Disqus [shortname](https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-) | Yes |
-| katex | true | Takes boolean value (true/false) to conditionally load [KaTeX](https://khan.github.io/KaTeX/) scripts required for math typesetting | Yes |
-
-Scripts listed here are only loaded if you provide a value in the `_config.yml` file.
-
-### Localization strings
-
-Change localization string variables in `_config.yml`.
-
-English text used in the theme (such as the "continue reading" label) has been grouped  so you can quickly translate the theme or change labels to suit your needs.
 
 ### Colours, typography, padding
 
 ![A selection of colours set in Type Theme by modifying the CSS](https://cloud.githubusercontent.com/assets/816965/5142488/130869a6-71d7-11e4-8a38-a69ec1673436.png)
-
 
 | Variable | Example | Description | Optional |
 |--------------|----------------------------|--------------------------------------|--------------------------------------------------------------|
@@ -181,21 +121,6 @@ hide: true
 ---
 ```
 
-### Tags
-
-Post tags should be placed between `[]` in your post metadata. Seperate each tag with a comma.
-
-For example:
-
-```yml
----
-layout: post
-title: Markdown and HTML
-tags: [sample, markdown, html]
----
-```
-
-A tags listing will be automatically generated using the `tags.html` file provided in Type theme. If you're not using the tags feature it is safe to delete `tags.html`.
 
 ### Search
 
@@ -209,11 +134,6 @@ The search feature can be activated in the `_config.yml` file by changing its va
 Once activated, the search bar will appear in the header. This feature uses [Lunr](https://lunrjs.com/) and searches through the title, tags and content of your posts.
 
 ### Subtitles
-A subtitle can be displayed below your title on permalink post pages.
-
-To enable this feature, add `subtitle` to your post metadata.
-
-For example:
 
 ```yml
 ---
