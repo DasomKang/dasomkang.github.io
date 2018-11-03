@@ -1,7 +1,7 @@
 ---
 layout: post
 navigation: True
-title: R markdown으로 github 블로그 포스팅하기면서
+title: R markdown으로 github 블로그 포스팅하기
 date: 2018-11-03
 tags:
 categories: etc
@@ -14,13 +14,13 @@ gitub blog를 미리 세팅해놨다는 가정하에,
 
 
 
-####1. github 블로그 폴더 내에 폴더 추가
+#### 1. github 블로그 폴더 내에 폴더 추가
 내 경우에는 아래 두 개만 추가했다.
-- ```userid.github.io/_Rmd```: R 마크다운 파일이 저장되는 경로
-- ```assets/article_images/title```: R 코드로 만들어진 이미지가 저장되는 경로
+- `userid.github.io/_Rmd`: R 마크다운 파일이 저장되는 경로
+- `assets/article_images/title`: R 코드로 만들어진 이미지가 저장되는 경로
 
 
-####2. R studio에서 .Rmd 파일 작성 및 저장
+#### 2. R studio에서 .Rmd 파일 작성 및 저장
 Rstudio를 켜고 업로드할 글이나 테스트해볼 글을 작성한다. 프론트매터의 경우는 아래와 같이 작성하면 된다.
 
 ```
@@ -36,9 +36,9 @@ categories: ETC
 물론 위에서 title, author, date, 다 마음대로 바꾸면 되고, date의 경우
 아마 2018 11 3 으로 자동으로 값이 저장되어있을 텐데, 형식을 2018-11-03으로 바꿔줘야 한다. 그리고 글을 작성하고 저장하면 된다. 나는 처음에 테스트용으로 그냥 상단만 수정한 뒤 바로 업로드해봤었다.
 
-  R 마크다운 파일을 위 ```userid.github.io/_Rmd``` 폴더에 저장한다.
+  R 마크다운 파일을 위 userid.github.io/_Rmd` 폴더에 저장한다.
 
-####3. 새로운 .R파일 하나 생성
+#### 3. 새로운 .R파일 하나 생성
 
 아래 스크립트를 작성한다.
 
@@ -76,6 +76,7 @@ opts_chunk$set(cache = F, warning = F, message = F, cache.path = "_cache/", tidy
 out.file <- basename(knit(file))
 file.rename(out.file, paste0(posts.path, out.file))
 ```
+
 그리고 R에서 하나씩 끝까지 실행한다! 성공할경우
 
 ```
