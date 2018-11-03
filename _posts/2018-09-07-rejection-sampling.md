@@ -4,7 +4,7 @@ navigation: True
 title: Rejection Sampling
 date: 2018-09-07
 tags: [sampling]
-categories: [Statistics]
+categories: [Stats]
 comments: true
 ---
 
