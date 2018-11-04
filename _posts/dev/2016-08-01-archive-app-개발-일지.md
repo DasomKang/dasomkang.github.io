@@ -68,7 +68,7 @@ comments: true
     - 아이디 비밀번호 sharedpreferences에 임시아이디랑 비밀번호 넣어서 저장해야한다. -> 8/22
     - 데이터베이스를 새로 만드는 것이 좋다.
 
-##### 3주차 - 서버 업로드
+#### 3주차 - 서버 업로드
 
 **일요일**
 - 프레그먼트 + 뷰페이저 였는데 프레그먼트만으로 바꿈 !!!
@@ -100,7 +100,7 @@ comments: true
 - 이거는 고려해보자.
 
 
-##### 4주차. - 데이터베이스
+#### 4주차. - 데이터베이스
 
 - 데이터베이스와 연동 (로그인데이터베이스, 임시 데이터베이스, 서버 오디오 데이터베이스)
 - 리스트뷰 연습, 그리고 리사이클러뷰 까지
@@ -130,158 +130,67 @@ comments: true
 **목,금요일**
 - 피드창에 리사이클러뷰 적용
 - mp4 재생이 안되어서 계쏙 오류였음.. 하루종일 찾았음
+- mp4 플레이어 오픈소스 가져와서 적용하려다가 종일 시간 투자 ㅠㅠ
 
-
-
-9. mp4 플레이어 오픈소스 가져와서 적용하려다가 종일 시간 투자 ㅠㅠ
-
-
-
-
-
-<토>
-
--------
-
-5주차.  - 플레이어 기능 , 리스트뷰
-
-
-
+#### 5주차 - 플레이어 기능, 리스트뷰
 mp4플레이어 만들기 , 서버 업로드 완전 성공 끝내기 , 개인 프로필창 만들기
 
 
-
-
-
-<일>
-
-
-
+**일요일**
 업로드 및 오디오 재생 문제에서
+- 아파치에 업로드 시 재생 오류 -> mime.types 추가해줌
+- 안드로이드에서 mp4 재생 테스트 확인  -> 잘 됨
+- 안드로이드에서 녹음한 파일 이나 업로드한 파일은 재생이 안되는 오류가 있었음.
 
+=> 총 금,토,일 을 소요: 결국 인코딩의 문제였음. getbyte를 쓰면 화면에는 나오나 재생이 안되는 오류
 
 
-<업로드 및 오디오 재생 문제에서>
+**화요일**
+- 앱 디자인 고름
 
-1. 아파치에 업로드 시 재생 오류 -mime.types 추가해줌
+**수요일**
+- 오디오 플레이어 완성
+- 리스트뷰 디자인 다시 정리
 
-2. 안드로이드에서 mp4 재생 테스트 확인  - 잘 됨
 
-3. 안드로이드에서 녹음한 파일 이나 업로드한 파일은 재생이 안되는 오류가 있었음.
+**금요일**
+- 파일과 문자 동시에 업로드
+- duration 같이 업로드
 
+- 문제 해결 :
+  - 녹음이 종료되고 업로드될 때, 해당 폴더에 있는 파일의 절대경로에서 녹음된 시간을 가져온다. 그다음에 post로 같이 전송한다. 와 이거 지금 1시간째 안되었는데, 뛰어쓰기때문에 안되는거였다. 진짜 매의 눈으로 찾음
 
+  ~~~java
+  dos.writeBytes(twoHyphens + boundary + lineEnd);
 
--> 총 금,토,일 을 소요  ; 결국 인코딩의 문제였음. getbyte 를 쓰면 화면에는 나오나 재생이 안되는 오류
+  dos.writeBytes("Content-Disposition: form-data; name=\"duration\"" +lineEnd);
 
+  dos.writeBytes(lineEnd);
 
+  dos.writeBytes(duration + lineEnd);
 
+  System.out.println(duration);
+  ~~~
 
+  여기에서 **name = \"duration**어찌고저찌고 안되는 경우 뛰어쓰기를 잘 봐야함 ㅠㅠㅠㅠ뛰어쓰기되어있으면 안됨 .ㅠ.ㅠ.ㅠ.ㅠ.ㅠ....
 
-<화>
+<참고사항 + 나중에 꼭 추가할 기능>
+- 좋아요 기능 넣고 duration 총 길이 넣기
 
-앱 디자인 고름
+#### 6주차
+- 개인 프로필창 만들기
 
-
-
-<수>
-
-오디오 플레이어 완성
-
-
-
-리스트뷰 디자인 다시 정리
-
-
-
-<금>
-
-
-
-파일과 문자 동시에 업로드.
-
- - duration 같이 업로드
-
-
-
-
-
-
-
-녹음이 종료되고 업로드될 때, 해당 폴더에 있는 파일의 절대경로에서 녹음된 시간을 가져온다.
-
-그다음에 post로 같이 전송한다.
-
-와 이거 지금 1시간째 안되었는데, 뛰어쓰기때문에 안되는거였다.
-
-진짜 매의 눈으로 찾음
-
-
-
-dos.writeBytes(twoHyphens + boundary + lineEnd);
-
-dos.writeBytes("Content-Disposition: form-data; name=\"duration\"" +lineEnd);
-
-dos.writeBytes(lineEnd);
-
-dos.writeBytes(duration + lineEnd);
-
-System.out.println(duration);
-
-여기에서 name = \"duration어찌고저찌고 안되는 경우 뛰어쓰기를 잘 봐야함 ㅠㅠㅠㅠ뛰어쓰기되어있으면 안됨 .ㅠ.ㅠ.ㅠ.ㅠ.ㅠ....
-
-
-
-
-
-좋아요 기능 넣고 duration 총 길이 넣기
-
-
-
-<참고> 추가해야할 기능
-
- 좋아요
-
-duration 넣기
-
-
-
-
-
-
-
-6주차.
-
-
-
-개인 프로필창 만들기
-
-
-
-
-
-<일>
-
-
-
+**일요일**
 사진 업로드 하는 과정에서 시간을 많이 잡아 먹음
 
+- 프로필 사진 지정 및 서버 업로드
+  - 사진 크롭 저장기능 = 라이브러리 사용
+  - 서버업로드 시 에러가 있었음. 파일 주소앞에 / 를 붙이면 안되는데 붙여서 저장안됨 ㅠ
 
-
-1. 프로필 사진 지정 및 서버 업로드
-
- -사진 크롭 저장기능 = 라이브러리 사용
-
- -서버업로드 시 에러가 있었음. 파일 주소앞에 / 를 붙이면 안되는데 붙여서 저장안됨 ㅠ
-
-
-
- ~~~
-
+~~~ java
 private void beginCrop(Uri source) {
 
     Log.d("beginCrop", "start");
-
-
 
     Uri destination = Uri.fromFile(new File( Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES), "cropped.jpg"));
 
@@ -289,19 +198,10 @@ private void beginCrop(Uri source) {
 
     Crop.of(source, destination).asSquare().start(getContext(),this);
 
-
-
-
-
-
-
     System.out.println(destination);
 
     //start(Activity activity) 부분을 start(Context context, Fragment fragment)로 변경
-
 }
-
-
 
 private void handleCrop(int resultCode, Intent result) {
 
@@ -321,76 +221,42 @@ private void handleCrop(int resultCode, Intent result) {
 
         System.out.println("abs=" + absolutePath);
 
-
-
         imageUpload();
-
  ~~~
-
-
-
-이제 업로드하는 것 잘 ㅇ라겠음
+ 이제 업로드하는 것 잘 알겠음
 
 
 1. 서버의 파일 권한 777로 풀어주기
 2. 파일 경로 제대로 체크 해야함.
-
- ~~~
-        //꼭 만들 때 storage 앞에 /를 붙이지 말것 !!
-
-        absolutePath = "storage/emulated/0/Pictures/cropped.jpg";
+~~~ Java
+//꼭 만들 때 storage 앞에 /를 붙이지 말것 !!
+absolutePath = "storage/emulated/0/Pictures/cropped.jpg";
 ~~~
 
 3. 크롭한 파일 저장될 주소 잘 찾기
-
-
-
- ~~~ Java
-    Uri destination = Uri.fromFile(new File( Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES), "cropped.jpg"));
-
-    //Uri destination = Uri.fromFile(new File(getActivity().getCacheDir(), "cropped"));
+~~~ Java
+Uri destination = Uri.fromFile(new File( Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES), "cropped.jpg"));
+//Uri destination = Uri.fromFile(new File(getActivity().getCacheDir(), "cropped"));
 ~~~
-
-
 이런식으로 나는, sd카드에 picture에 저장할 것
 
+4. 서버 업로드 시 mysql이용할 떄, 같은 데이터베이스를 이용할 경우, **mysqli_close($conn);** 를 중간에 쓰면 절대 안됨~ ㅠㅠㅠㅠ
 
 
-4. 서버 업로드 시 mysql이용할 떄, 같은 데이터베이스를 이용할 경우
-
-`mysqli_close($conn);` 를 중간에 쓰면 절대 안됨~ ㅠㅠㅠㅠ
-
-
-
-
-
-
-<수>
-
-
-
+**수요일**
 1. 피드 새로고침
-
-ultimaterecyclerview 사용
-
-feedfragment  ->  당겨서 새로고침
-
+  - ultimaterecyclerview 사용
+  - feedfragment  ->  당겨서 새로고침
 
 2. sticky header
-
-- ultimaterecyclerview 사용
-
--날짜 헤더 추가
-
-
+  - ultimaterecyclerview 사용
+  - 날짜 헤더 추가
 
 
 날짜를 long형으로 바꿔서
 
 ~~~ Java
 java.text.SimpleDateFormat df = new java.text.SimpleDateFormat("yyyy.MM.dd/HH:mm:ss");
-
 java.util.Date date = df.parse("2001.07.02/18:26:00");
-
 long time = date.getTime();
 ~~~
