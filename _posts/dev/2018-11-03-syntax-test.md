@@ -1,0 +1,18 @@
+---
+layout: post
+title: 안드로이드 서버 연동 에러시 manifest 확인
+date: 2016-08-09
+navigation: True
+tags: android, error
+categories: dev
+comments: true
+---
+
+
+안드로이드 서버 연동 에러시 manifest 확인해야한다.
+아래 코드도 써줘야함.
+
+~~~ Java
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+~~~
