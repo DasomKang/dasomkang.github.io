@@ -9,7 +9,15 @@ feature-img: "assets/img/cover4.jpg"
 
 ### About
 
-About me.
+
+
+![In Svalbard](/assets/img/Abount_me.jpg)
+
+In Longyearbyen, Svalbard.
+
+
+
+
 
 
 ### Blog History
