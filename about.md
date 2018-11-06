@@ -9,6 +9,7 @@ feature-img: "assets/img/cover4.jpg"
 
 ### About
 
+![Geometric pattern with fading gradient](/assets/img/hubert-neufeld-greenland.jpg)
 
 ![Oct, 2017 in Longyearbyen, Svalbard.](assets/img/About_me.jpg)
 
