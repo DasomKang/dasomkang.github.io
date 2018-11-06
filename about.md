@@ -4,12 +4,7 @@ title: About
 permalink: /about/
 feature-img: "assets/img/cover4.jpg"
 ---
-
-
-
-### About
-
-![Geometric pattern with fading gradient](/assets/img/hubert-neufeld-greenland.jpg)
+### About me
 
 ![Oct, 2017 in Longyearbyen, Svalbard.](/assets/img/about_me_profile.jpg)
 
