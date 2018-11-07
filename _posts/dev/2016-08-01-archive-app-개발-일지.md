@@ -3,7 +3,7 @@ layout: post
 title: 안드로이드 어플 개발 간단 일지 및 메모 (업데이트 중)
 date: 2016-08-01
 navigation: True
-tags: android
+tags: [android]
 categories: dev
 comments: true
 ---
