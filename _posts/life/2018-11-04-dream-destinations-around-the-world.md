@@ -12,3 +12,7 @@ comments: true
 Greenland
 ![Geometric pattern with fading gradient](/assets/img/hubert-neufeld-greenland.jpg)
 *Photo by Hubert Neufeld on Unsplash*
+
+Alaska
+
+Iceland
