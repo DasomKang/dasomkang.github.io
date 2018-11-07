@@ -38,3 +38,14 @@ Type Theme uses KaTeX to display maths. Equations such as $$S_n = a \times \frac
 Alternatively, they can be shown on a new line:
 
 $$ f(x) = \int \frac{2x^2+4x+6}{x-2} $$
+
+test 1.
+~~~ ruby
+def show
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end
+~~~
