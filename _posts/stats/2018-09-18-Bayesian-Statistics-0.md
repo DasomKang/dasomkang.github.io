@@ -3,8 +3,8 @@ layout: post
 navigation: True
 title: Bayesian Statistics 0
 date: 2018-09-08
-tags: [bayesian]
-categories: stats
+tags: [Bayesian, Statistics]
+categories: summary
 comments: true
 ---
 

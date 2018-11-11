@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Markdown and HTML
+categories: draft
 feature-img: "assets/img/sample_feature_img.png"
 ---
 

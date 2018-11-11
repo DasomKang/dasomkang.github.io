@@ -3,8 +3,8 @@ layout: post
 navigation: True
 title: Rejection Sampling
 date: 2018-09-07
-tags: [sampling]
-categories: [stats]
+tags: [sampling, Statistics]
+categories: [summary]
 comments: true
 ---
 

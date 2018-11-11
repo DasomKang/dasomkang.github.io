@@ -3,8 +3,8 @@ layout: post
 navigation: True
 title: Importance Sampling
 date: 2018-09-08
-tags: [statistics, sampling]
-categories: stats
+tags: [Statistics, sampling]
+categories: summary
 comments: true
 ---
 

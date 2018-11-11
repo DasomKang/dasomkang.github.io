@@ -51,7 +51,7 @@ theme_settings:
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Source+Sans+Pro:250,450,450italic,250italic"
+  google_fonts: "Source+Sans+Pro:220,410,410italic,220italic"
 
   # Post navigation
   post_navigation: false
