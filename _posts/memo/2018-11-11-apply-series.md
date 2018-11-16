@@ -2,7 +2,8 @@
 layout: post
 title: apply() in r
 date: 2018-11-11
-categories: memo
+tags: [r]
+categories: [memo]
 comments: true
 ---
 ### apply() in r

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Markdown and HTML
-categories: draft
+categories: memo
+tags: [markdown, html]
 feature-img: "assets/img/sample_feature_img.png"
 ---
 

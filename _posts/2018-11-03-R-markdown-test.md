@@ -4,7 +4,7 @@ title: "R-markdown-test"
 author: "Dasom Kang"
 date: '2018-11-03'
 output: html_document
-categories: etc
+categories: memo
 ---
 
 
