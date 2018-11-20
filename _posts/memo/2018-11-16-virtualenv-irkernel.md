@@ -2,7 +2,7 @@
 layout: post
 navigation: True
 title: virtualenv에 irkernel 설치
-date: 2018-09-15
+date: 2018-11-16
 tags: [virtualenv, irkernel]
 categories: [memo]
 comments: true
