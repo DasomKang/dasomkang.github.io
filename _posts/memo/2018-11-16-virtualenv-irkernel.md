@@ -14,10 +14,9 @@ jupyter를 맥 기본 파이썬에 설치하지 않고, virtualenv에 파이썬 
 아직 환경변수며, PATH며 이런 걸 잘 모르기때문에... 그냥 구글검색하면서 stackoverflow를 따라하고 그런다.
 아래는 내가 했던 방법.. 참고했던 사이트도 첨부해두었다.
 참고로 mac을 이용하고 있다.
-
+  
 ---
 0. jupyter notebook과 R은 이미 설치가 되어 있다 가정한다.
-
 
 1. virtualenv 를 먼저 터미널에 실행해둔다.
 
@@ -30,7 +29,7 @@ dasomiui-MBP:keras_practice dasomi$ pyenv activate keras_practice
 install.packages('devtools')
 devtools::install_github('IRkernel/IRkernel')
 ~~~
-  
+
 3. R 커널을 등록
 - 여기서는 다시 mac의 terminal로 돌아가서 아래와 같이 입력한다.
 ~~~
