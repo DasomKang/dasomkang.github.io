@@ -30,7 +30,7 @@ dasomiui-MBP:keras_practice dasomi$ pyenv activate keras_practice
 install.packages('devtools')
 devtools::install_github('IRkernel/IRkernel')
 ~~~
-
+  
 3. R 커널을 등록
 - 여기서는 다시 mac의 terminal로 돌아가서 아래와 같이 입력한다.
 ~~~
