@@ -2,7 +2,7 @@
 layout: post
 navigation: True
 title: fill out the missing value with the nearest previous date.
-date: 2018-11-16
+date: 2018-11-20
 tags: [R]
 categories: [memo]
 comments: true
