@@ -4,7 +4,7 @@ navigation: True
 title: R markdown으로 github 블로그 포스팅하기
 date: 2018-11-03
 tags:
-categories: draft
+categories: Archive
 comments: true
 ---
 
