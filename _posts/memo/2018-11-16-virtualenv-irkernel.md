@@ -17,21 +17,21 @@ jupyter를 맥 기본 파이썬에 설치하지 않고, virtualenv에 파이썬 
 참고로 mac을 이용하고 있다.  
   
 ---
-0. jupyter notebook과 R은 이미 설치가 되어 있다 가정한다.  
+1. jupyter notebook과 R은 이미 설치가 되어 있다 가정한다.  
   
-1. virtualenv 를 먼저 터미널에 실행해둔다.  
+2. virtualenv 를 먼저 터미널에 실행해둔다.  
   
 ~~~ shell
 dasomiui-MBP:keras_practice dasomi$ pyenv activate keras_practice
 ~~~
   
-2. R프로그램을 켜서 R의 콘솔 창에 아래 코드를 입력  
+3. R프로그램을 켜서 R의 콘솔 창에 아래 코드를 입력  
 ~~~ R
 install.packages('devtools')
 devtools::install_github('IRkernel/IRkernel')
 ~~~
   
-3. R 커널을 등록  
+4. R 커널을 등록  
 - 여기서는 다시 mac의 terminal로 돌아가서 아래와 같이 입력한다.  
 ~~~
 R # 대문자 R을 입력 시 R이 terminal에서 실행된다.
