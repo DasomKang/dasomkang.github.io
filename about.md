@@ -12,6 +12,11 @@ I believe that everything that happens will support my growth and aim to make a 
 
 
 ### Blog History
+
+- 2019.05.11
+  - Delete dev category
+  - Delete all posts
+
 - 2018.11.02
   - 블로그 테마 변경(Jasper -> Type Theme)
   - 글 옮겨오는 중, 카테고리 추가 중

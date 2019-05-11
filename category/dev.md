@@ -1,5 +1,0 @@
----
-layout: category
-title: dev
-permalink: /dev/
----
