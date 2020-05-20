@@ -12,6 +12,10 @@ feature-img: "assets/img/cover4.jpg"
   
 ### Blog History
 
+- 2020.05.20
+  - 포스팅 다시 시작
+  - 블로그 타이틀 변경 
+ 
 - 2019.05.11
   - Delete dev category
   - Delete all posts
