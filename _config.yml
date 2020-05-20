@@ -5,7 +5,7 @@ url: "https://dasomkang.github.io/"
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: miscellaneous articles
+  title: Metamorphosis
   avatar: assets/img/avatar.jpg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash

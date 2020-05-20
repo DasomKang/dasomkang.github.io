@@ -5,12 +5,11 @@ permalink: /about/
 feature-img: "assets/img/cover4.jpg"
 ---
 ### About me
-
-I admire nature, especially glacier. I love being encompassed and overwhelmed by spectacular nature wonder. I feel alive in the middle of the vast and endless nature.
-
-I believe that everything that happens will support my growth and aim to make a positive impact wherever I am and whatever I do.
-
-
+  
+   
+  
+  
+  
 ### Blog History
 
 - 2019.05.11
