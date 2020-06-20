@@ -12,6 +12,7 @@ comments: true
 
 ## 1. Plotly 설치  
 1. 아래 링크 따라서  JupyterLab plotly extensions 설치하면 끝
+   
    - [https://plotly.com/python/getting-started/#jupyterlab-support-python-35](https://plotly.com/python/getting-started/#jupyterlab-support-python-35)
 2. JupyterLab 실행 중이었다면 재실행 필요
 
