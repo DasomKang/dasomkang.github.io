@@ -1,5 +1,5 @@
 ---
 layout: category
-title: Archive
-permalink: /Archive/
+title: archive
+permalink: /archive/
 ---

@@ -4,18 +4,21 @@ title: About
 permalink: /about/
 feature-img: "assets/img/cover4.jpg"
 ---
-### About me
-  
-   
-  
-  
-  
+### Links
+
+
+
+
+
 ### Blog History
+
+- 2021.02.24
+  - 다다시 시작;
 
 - 2020.05.20
   - 포스팅 다시 시작
-  - 블로그 타이틀 변경 
- 
+  - 블로그 타이틀 변경
+
 - 2019.05.11
   - Delete dev category
   - Delete all posts
