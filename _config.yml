@@ -55,7 +55,7 @@ theme_settings:
 
 
 # Post navigation
-post_navigation: True
+post_navigation: false
 
 # PAGINATION
 paginate: 10
