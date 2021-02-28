@@ -23,15 +23,24 @@ layout: default
           {{ post.date | date: "%B %-d, %Y" }}
         </p>
       </header>
-      <div class="excerpt">
+      <!-- <div class="excerpt">
         {{ post.excerpt }}
         <a class="button" href="{{ post.url | relative_url }}">
           {{ site.theme_settings.str_continue_reading }}
         </a>
-      </div>
+      </div> -->
     </div>
     {% endfor %}
   </div>
+
+
+
+
+
+
+
+
+
 
   {% if paginator.total_pages > 1 %}
   <div class="pagination">

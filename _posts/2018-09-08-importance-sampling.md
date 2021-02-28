@@ -4,7 +4,7 @@ navigation: True
 title: Importance Sampling
 date: 2018-09-08
 tags: [Statistics, sampling]
-categories: archive
+categories: [All]
 comments: true
 ---
 
