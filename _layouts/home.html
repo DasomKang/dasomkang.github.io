@@ -10,10 +10,10 @@ layout: default
   </div>
   {% endif %}
 
-  <div class="posts">
+  <ul class="posts-list">
     {% for post in paginator.posts %}
+
     <li>
-      <header>
       <h3>
         <a href="{{ site.baseurl }}{{ post.url }}">
           {{ post.title }}
@@ -22,7 +22,6 @@ layout: default
         <p class="meta">
           {{ post.date | date: "%B %-d, %Y" }}
         </p>
-        </header>
     </li>
 
     <!-- <div class="post-teaser">
@@ -44,8 +43,7 @@ layout: default
       </div>
     </div> -->
     {% endfor %}
-  </div>
-
+</ul>
 
   {% if paginator.total_pages > 1 %}
   <div class="pagination">
