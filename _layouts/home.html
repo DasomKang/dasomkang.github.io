@@ -10,17 +10,22 @@ layout: page
   </div>
   {% endif %}
 
+
+
   <ul class="posts-list">
     {% for post in paginator.posts %}
 
     <li>
+      <h4>
         <a href="{{ site.baseurl }}{{ post.url }}">
           {{ post.title }}
         </a>
+      </h4>
         <small>{{ post.date | date: "%B %-d, %Y"  }}</small>
     </li>
 
-    <!-- <div class="post-teaser">
+    <!-- 윗부분 새로 추가된 부분. 원본은 여기부터
+    <div class="post-teaser">
 
       <header>
         <h3>
