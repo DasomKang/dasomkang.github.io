@@ -1,13 +1,13 @@
 ---
 layout: page
-title: about
+title: About
 permalink: /about/
-feature-img: "assets/img/cover4.jpg"
+## feature-img: "assets/img/cover4.jpg"
 ---
 ### Links
 
 
-  
+
 
 
 ### Blog History
