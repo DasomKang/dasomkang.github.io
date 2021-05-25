@@ -1,10 +1,7 @@
 ---
 layout: page
-title: Miscellaneous
-permalink: /miscellaneous/
+title: Project
+permalink: /project/
 ---
 
-
-
-- test
-- test2
+- 카테고리 수정 
