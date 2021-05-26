@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Project
-permalink: /project/
+title: miscellaneous
+permalink: /miscellaneous/
 ---
 
-- 카테고리 수정 
