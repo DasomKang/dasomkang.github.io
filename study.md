@@ -32,6 +32,4 @@ permalink: /study/
   
 ### 2022
 주제 리스트
-  
-- dynamic 최적화 
--
+- dynamic 최적화
