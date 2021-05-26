@@ -2,16 +2,17 @@
 layout: page
 title: About
 permalink: /about/
-## feature-img: "assets/img/cover4.jpg"
+feature-img: "assets/img/background1.jpg"
 ---
-### Links
-
-
 
 
 
 ### Blog History
 
+
+- 2021.05.26
+  - 다다다시 시작;
+  
 - 2021.02.24
   - 다다시 시작;
 
