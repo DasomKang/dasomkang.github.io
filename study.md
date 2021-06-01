@@ -4,7 +4,7 @@ title: Study
 permalink: /study/
 ---
   
-### 2021
+## 2021
 
 - Bayesian Inference
 - Time Series Analysis
