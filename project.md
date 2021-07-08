@@ -11,9 +11,8 @@ permalink: /project/
    
 ### 2021
   
-1. GA 데이터 품질 모니터링 Product (2021.05 ~)
-- Random sampling
-- Anomaly detection
+1. GA 데이터 품질 모니터링 Product (2021.05 ~ 2021.07)
+- Anomaly detection (Rule-based & Time-series prediction)
 - alert 기능 연동  
 2. User Profiling (2021.05 ~)
 
