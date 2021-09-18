@@ -1,5 +1,5 @@
 ---
 layout: category
-title: engrossed in
+title: Engrossed in
 permalink: /engrossed/
 ---
