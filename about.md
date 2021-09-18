@@ -2,12 +2,11 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "assets/img/background1.jpg"
 ---
 
 
 
-## Blog History
+**Blog History **
 
 
 - 2021.05.26
