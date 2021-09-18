@@ -7,6 +7,6 @@ tags: [science, quantum mechanics]
 categories: [Engrossed in]
 ---
 
-양자역학 
-https://www.notion.so/dasomkang/f434b030ce37471da4406658fa950dfd
+
+- [memo](https://www.notion.so/dasomkang/f434b030ce37471da4406658fa950dfd)
 
