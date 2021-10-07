@@ -4,5 +4,18 @@ title: Bookmark
 permalink: /bookmark/
 ---
 
+## Bookmark
+- 주기적으로 업데이트 중
+
+
+
+
+
+
+
 **Product**
-- [A/B테스트 자동 분석툴 개발하기] (https://hyperconnect.github.io/2021/02/26/auto-stats-test.html)
+- [hyperconnect - A/B테스트 자동 분석툴 개발하기](https://hyperconnect.github.io/2021/02/26/auto-stats-test.html)
+
+
+**효과분석**
+- [회귀 단절 모형을 활용한 전후 비교 분석](https://hyperconnect.github.io/2021/06/07/regression-discontinuity-in-time.html)
