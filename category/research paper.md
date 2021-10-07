@@ -1,5 +1,5 @@
 ---
 layout: category
-title: Research Paper
-permalink: /research/
+title: Papers
+permalink: /paper/
 ---

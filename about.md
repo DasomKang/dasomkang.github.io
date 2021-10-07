@@ -6,8 +6,10 @@ permalink: /about/
 
 
 
-**Blog History **
+**Blog History**
 
+- 2021.10.07
+- Bookmark 카테고리 추가
 
 - 2021.05.26
   - 다다다시 시작;
