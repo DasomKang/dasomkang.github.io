@@ -4,9 +4,8 @@ title: Bookmark
 permalink: /bookmark/
 ---
 
-## Bookmark
-- 주기적으로 업데이트 중
 
+- 주기적으로 업데이트 중
 
 
 
