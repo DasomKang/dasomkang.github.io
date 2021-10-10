@@ -18,3 +18,5 @@ permalink: /bookmark/
 
 **효과분석**
 - [회귀 단절 모형을 활용한 전후 비교 분석](https://hyperconnect.github.io/2021/06/07/regression-discontinuity-in-time.html)
+
+
