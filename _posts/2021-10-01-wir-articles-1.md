@@ -1,7 +1,7 @@
 ---
 layout: post
 navigation: True
-title: WIR 2021년 10월 모음
+title: [WIR] Oct 2021
 date: 2021-10-01
 categories: [All, Articles]
 comments: true
@@ -20,6 +20,3 @@ comments: true
 	- Fast Fourier Transformation
 	
 - ⭐️[Smart Factory 서비스를 위한 진동/압력/온도 센서의 Anomaly Detection 개발 - 연구과정(2)](https://devocean.sk.com/blog/techBoardDetail.do?page=&query=&ID=163325&searchData=AI+Fellowship&subIndex=&idList=%5B163325%2C+163213%5D)
-
-- [스마트 그리드에서의 시계열 군집분석을 통한 전력수요 예측 연구 원문보기 인용, A study on electricity demand forecasting based on time series clustering in smart grid](https://scienceon.kisti.re.kr/commons/util/originalView.do?cn=JAKO201611059007425&oCn=JAKO201611059007425&dbt=JAKO&journal=NJOU00025585)
-	- 
