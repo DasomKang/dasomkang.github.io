@@ -1,7 +1,7 @@
 ---
 layout: post
 navigation: True
-title: [WIR] Oct 2021
+title: WIR | Oct 2021
 date: 2021-10-01
 categories: [All, Articles]
 comments: true
