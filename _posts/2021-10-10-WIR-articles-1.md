@@ -4,7 +4,7 @@ navigation: True
 title: [WIR] 2021년 10월 모음
 date: 2021-10-01
 tags: [Statistics]
-categories: [All, Articles]
+categories: [All]
 comments: true
 ---
 
