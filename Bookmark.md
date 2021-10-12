@@ -17,5 +17,7 @@ permalink: /bookmark/
 - [회귀 단절 모형을 활용한 전후 비교 분석](https://hyperconnect.github.io/2021/06/07/regression-discontinuity-in-time.html)
 
 
----
-- https://blog.twitter.com/engineering/en_us/topics/insights/2020/graph-ml-at-twitter
+--- 
+
+
+- [https://blog.twitter.com/engineering/en_us/topics/insights/2020/graph-ml-at-twitter](https://blog.twitter.com/engineering/en_us/topics/insights/2020/graph-ml-at-twitter)
