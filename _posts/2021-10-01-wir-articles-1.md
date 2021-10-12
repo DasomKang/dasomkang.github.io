@@ -25,4 +25,3 @@ comments: true
 	- Global anomalies/Local anomalies로 나눠서 탐지
 	- Positive/Negative
 		- negative : data collection issues 
-		- 
