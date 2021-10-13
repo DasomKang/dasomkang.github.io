@@ -22,6 +22,7 @@ comments: true
 - ⭐️[Smart Factory 서비스를 위한 진동/압력/온도 센서의 Anomaly Detection 개발 - 연구과정(2)](https://devocean.sk.com/blog/techBoardDetail.do?page=&query=&ID=163325&searchData=AI+Fellowship&subIndex=&idList=%5B163325%2C+163213%5D)
 
 - ⭐️[Twitter Tech Blog, Introducing practical and robust anomaly detection in a time series](https://blog.twitter.com/engineering/en_us/a/2015/introducing-practical-and-robust-anomaly-detection-in-a-time-series)
-	- Global anomalies/Local anomalies로 나눠서 탐지
-	- Positive/Negative
-		- negative : data collection issues 
+	- Global anomalies/Local anomalies
+	- Positive/Negative anomalies
+
+- [Prophet - Uncertainty Intervals](https://facebook.github.io/prophet/docs/uncertainty_intervals.html)

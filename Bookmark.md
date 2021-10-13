@@ -21,3 +21,4 @@ permalink: /bookmark/
 
 
 - [https://blog.twitter.com/engineering/en_us/topics/insights/2020/graph-ml-at-twitter](https://blog.twitter.com/engineering/en_us/topics/insights/2020/graph-ml-at-twitter)
+- [https://exascale.info/assets/pdf/students/2020_MSc_AdrianHaenni.pdf](https://exascale.info/assets/pdf/students/2020_MSc_AdrianHaenni.pdf)
