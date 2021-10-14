@@ -4,7 +4,6 @@ title: Bookmark
 permalink: /bookmark/
 ---
 
-
 - 주기적으로 업데이트 중
 
 
@@ -17,8 +16,11 @@ permalink: /bookmark/
 - [회귀 단절 모형을 활용한 전후 비교 분석](https://hyperconnect.github.io/2021/06/07/regression-discontinuity-in-time.html)
 
 
---- 
 
 
-- [https://blog.twitter.com/engineering/en_us/topics/insights/2020/graph-ml-at-twitter](https://blog.twitter.com/engineering/en_us/topics/insights/2020/graph-ml-at-twitter)
-- [https://exascale.info/assets/pdf/students/2020_MSc_AdrianHaenni.pdf](https://exascale.info/assets/pdf/students/2020_MSc_AdrianHaenni.pdf)
+**ETC**
+- [Correlation-based Anomaly Detection in Time Series](https://exascale.info/assets/pdf/students/2020_MSc_AdrianHaenni.pdf)
+
+
+**keywords**  
+- Vector Quantization
