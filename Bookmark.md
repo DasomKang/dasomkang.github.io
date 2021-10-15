@@ -20,7 +20,8 @@ permalink: /bookmark/
 
 **ETC**
 - [Correlation-based Anomaly Detection in Time Series](https://exascale.info/assets/pdf/students/2020_MSc_AdrianHaenni.pdf)
-
+- (https://www.semanticscholar.org/paper/Advanced-correlation-based-anomaly-detection-method-Zhao-Kurihara/63b354417f5fa9778beccad3e6a5c2a262522fac)
 
 **keywords**  
 - Vector Quantization
+- Curved-Aligned Clustering(PCAC)
