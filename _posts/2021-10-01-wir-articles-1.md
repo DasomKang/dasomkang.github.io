@@ -23,3 +23,5 @@ comments: true
 	- Global anomalies/Local anomalies
 	- Positive/Negative anomalies
 - [Prophet - Uncertainty Intervals](https://facebook.github.io/prophet/docs/uncertainty_intervals.html)
+
+-⭐️[밀도기반, 모델기반 이상치탐지](https://github.com/pilsung-kang/Machine-Learning-Basics-Bflysoft/blob/master/Lecture%2010_Anomaly%20Detection.pdf)
