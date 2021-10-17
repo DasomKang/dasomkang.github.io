@@ -23,7 +23,7 @@
     width: 100%;
     margin-bottom: 0;
     display: inline-block;
-    background-size: 50%; //$feature-image-size;
+    background-size: $feature-image-size; //50%; 
     border-bottom: 1px solid $border-color;
     p a {
       @extend .body-link;
