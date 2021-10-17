@@ -11,7 +11,7 @@ title : All
   </div>
   {% endif %}
 
-
+<!-- ## post link list version 
   <ul class="posts-list">
     {% for post in paginator.posts %}
 
@@ -22,7 +22,7 @@ title : All
         <small>{{ post.date | date: "%B %-d, %Y"  }}</small>
     </li>
 
-    <!-- 윗부분 새로 추가된 부분. 원본은 여기부터
+    ## 윗부분 새로 추가된 부분. 원본은 여기부터
     <div class="post-teaser">
 
       <header>
@@ -42,9 +42,36 @@ title : All
           {{ site.theme_settings.str_continue_reading }}
         </a>
       </div>
-    </div> -->
+    </div> ##
     {% endfor %}
-</ul>
+</ul> -->
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post-teaser">
+    <header>
+      <h1>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title }}
+        </a>
+      </h1>
+      <p class="meta">
+        {{ post.date | date: "%B %-d, %Y" }}
+      </p>
+    </header>
+    <div class="excerpt">
+      {{ post.excerpt }}
+      <a class="button" href="{{ post.url | relative_url }}">
+        {{ site.theme_settings.str_continue_reading }}
+      </a>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+
+
+
 
   {% if paginator.total_pages > 1 %}
   <div class="pagination">
