@@ -6,14 +6,22 @@ permalink: /idea/
 
 
 
-**2021.12**
+---
+### 2021.12
+
+**idea**
 
 
+**keywords**  
+  
 
-**2021.10**
+---
 
+### 2021.10
+
+**idea**
 - Hidden Markov Model to classify users based on engagement
   
-keywords
+**keywords**
 - Vector Quantization
 - Curved-Aligned Clustering(PCAC)
