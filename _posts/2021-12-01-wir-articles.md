@@ -15,6 +15,9 @@ comments: true
 ---
 **List**
 
+- 2021-12-18 [Time Series Forecasting with ThymeBoost](https://towardsdatascience.com/thymeboost-a0529353bf34)
 - 2021-12-18 [Time Series Outlier Detection with ThymeBoost](https://towardsdatascience.com/time-series-outlier-detection-with-thymeboost-ec2046e17458)
-    - ThymeBoost
+    - ThymeBoost takes traditional time series decomposition and combines it with gradient boosting
 
+
+    
