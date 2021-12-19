@@ -16,7 +16,8 @@ description: "A website with blog posts and pages" # used by search engines
 header_text: >
 header_text_feature_image: #assets/img/background1.jpg
 footer_text: >
-Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
+# Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
+
 
 # Icons
 rss: false
