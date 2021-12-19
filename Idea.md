@@ -4,9 +4,6 @@ title: Idea
 permalink: /idea/
 ---
 
-
-
----
 ### 2021.12
 
 **idea**
